@@ -1,13 +1,15 @@
 pkgbase = wapiti
 	pkgdesc = Wapiti is a vulnerability scanner for web applications.
-	pkgver = 2.2.1
-	pkgrel = 2
+	pkgver = 2.3.0
+	pkgrel = 1
 	url = http://wapiti.sourceforge.net/
 	arch = any
 	license = GPL
-	depends = python2
-	source = http://downloads.sourceforge.net/sourceforge/wapiti/wapiti-2.2.1.tar.bz2
-	sha256sums = 1ce7de9dd277c1ef2dde969cb0dfea61f551d5d08334fad4edbda08bf0724c09
+	makedepends = python2-setuptools
+	depends = python2-requests
+	depends = python2-beautifulsoup3
+	source = http://downloads.sourceforge.net/wapiti/wapiti-2.3.0.tar.gz
+	sha256sums = 6b836a4810f17b7eda4345fb12293112129961ba243140c72a8da0ac2572f4b4
 
 pkgname = wapiti
 
