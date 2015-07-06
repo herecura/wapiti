@@ -1,7 +1,7 @@
 pkgbase = wapiti
 	pkgdesc = Wapiti is a vulnerability scanner for web applications.
 	pkgver = 2.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://wapiti.sourceforge.net/
 	arch = any
 	license = GPL
