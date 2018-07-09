@@ -1,11 +1,12 @@
 # Maintainer: BlackEagle < ike DOT devolder AT gmail DOT com >
 pkgname=wapiti
 pkgver=3.0.1
-pkgrel=1
-pkgdesc="Wapiti is a vulnerability scanner for web applications."
+pkgrel=2
+pkgdesc="vulnerability scanner for web applications."
 url='http://wapiti.sourceforge.net/'
 license=('GPL')
-depends=('python-requests' 'python-beautifulsoup4')
+depends=('python-requests' 'python-beautifulsoup4' 'python-pysocks'
+         'python-mako' 'python-tld' 'python-yaswfp')
 makedepends=('python-setuptools')
 arch=('any')
 source=("https://downloads.sourceforge.net/project/$pkgname/$pkgname/$pkgname-$pkgver/${pkgname}3-$pkgver.tar.gz")
